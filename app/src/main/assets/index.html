@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Метод Эйлера</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="eulerForm">
+                <input
+                    placeholder="Уравнение"
+                    type="text"
+                    id="equation"
+                    name="equation"
+                    required
+                />
+                <div class="row">
+                    <input
+                        placeholder="X"
+                        type="number"
+                        id="x0"
+                        name="x0"
+                        required
+                    />
+                    <input
+                        placeholder="Y"
+                        type="number"
+                        id="y0"
+                        name="y0"
+                        required
+                    />
+                </div>
+                <div class="row">
+                    <input
+                        placeholder="H"
+                        type="number"
+                        id="h"
+                        name="h"
+                        required
+                    />
+                    <input
+                        placeholder="N"
+                        type="number"
+                        id="n"
+                        name="n"
+                        required
+                    />
+                </div>
+                <button type="button" id="calculateButton">Рассчитать</button>
+            </div>
+            <table id="resultTable">
+                <thead>
+                    <tr>
+                        <th>X</th>
+                        <th>Y</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <div id="canvas" style="width: 300px; height: 300px"></div>
+        </div>
+        <script src="tools.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+input {
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+    box-sizing: border-box;
+    min-width: 50px;
+    background-color: rgb(194, 174, 255);
+}
+
+button {
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(194, 174, 255);
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    align-self: center;
+    text-align: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    gap: 10px;
+    width: auto;
+}
+
+.eulerForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#equation {
+    width: 100%;
+}
+
+::placeholder {
+    color: rgb(65, 65, 65);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid rgb(184, 184, 184);
+}
+
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
